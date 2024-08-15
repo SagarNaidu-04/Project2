@@ -1,0 +1,7 @@
+S=input('enter string')
+S1=input('substring')
+c=0
+for i in S:
+    if i==S1:
+        c+=1
+print(c)
